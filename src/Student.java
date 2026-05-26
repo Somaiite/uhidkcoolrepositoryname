@@ -1,17 +1,16 @@
-public class Studentt {
+public class Student {
     private double gpa;
-    private String adress;
+    private String address;
     private int ID;
     private String firstName;
     private String lastName;
 
-    public Studentt() {
+    public Student() {
     }
 
-    public Studentt(double gpa, String adress, int ID, String firstName, String lastName) {
+    public Student(double gpa, String address, String firstName, String lastName) {
         this.gpa = gpa;
-        this.adress = adress;
-        this.ID = ID;
+        this.address = address;
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -24,12 +23,12 @@ public class Studentt {
         this.gpa = gpa;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String adress) {
+        this.address = adress;
     }
 
     public int getID() {
@@ -60,7 +59,7 @@ public class Studentt {
     public String toString() {
         return "Studentt{" +
                 "gpa=" + gpa +
-                ", adress='" + adress + '\'' +
+                ", address='" + address + '\'' +
                 ", ID=" + ID +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
