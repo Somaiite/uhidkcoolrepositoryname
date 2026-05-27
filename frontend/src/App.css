@@ -1,5 +1,15 @@
+.form h3 {
+  color: black;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
 .container {
   display: flex;
   justify-content: center; /* Centers horizontally */
   height: 25vh;
+}
+
+.form .add-student-button {
+  margin-top: 20px;
 }
