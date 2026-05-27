@@ -24,9 +24,9 @@ public class DatabaseService
     // Use Database credentials to log into Database
     // TODO -- Secure credentials 5/24/26 -SW
 
-    String dbUrl = "jdbc:mysql://localhost:3306/student_management_db";
-    String username = "root";
-      String password = "MFAW331BH";
+    String dbUrl = "INSERT_DB_URL_HERE";
+    String username = "INSERT_USERNAME_HERE";
+      String password = "INSERT_PASSWORD_HERE";
 
     // Attempt to connect to database
     try (Connection connection = DriverManager.getConnection(dbUrl, username, password)) {
