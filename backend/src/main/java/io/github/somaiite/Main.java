@@ -1,3 +1,5 @@
+package io.github.somaiite;
+
 import java.sql.SQLException;
 
 public class Main {
