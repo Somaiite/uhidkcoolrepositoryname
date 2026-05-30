@@ -10,6 +10,6 @@
   height: 25vh;
 }
 
-.form .add-student-button {
+.form #add-student-button {
   margin-top: 20px;
 }
